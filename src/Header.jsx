@@ -2,12 +2,10 @@ import "./index.css";
 
 export default function Header() {
   return (
-    <header>
-      <div className="logo">
-        <img src="/src/assets/Troll-Face.png"></img>
-        <p>Meme Generator</p>
-      </div>
-      <p>React Course = Project 3</p>
+    <header className="header">
+      <img className="header--image" src="/src/assets/Troll-Face.png"></img>
+      <h2 className="header--title">Meme Generator</h2>
+      <h4 className="header--project">React Course - Project 3</h4>
     </header>
   );
 }
