@@ -3,8 +3,8 @@ import memesData from "./memesData.js";
 
 export default function Meme() {
   const [meme, setMeme] = React.useState({
-    topText: "",
-    bottomText: "",
+    topText: "One does not simply",
+    bottomText: "walk into Mordor",
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
   console.log(meme);
